@@ -12,7 +12,10 @@ function App() {
     if(counter > 19){
       setCounter(20)
     }else{
-      setCounter(counter + 1)
+      setCounter((counter) => counter + 1)
+      setCounter((counter) => counter + 1)
+      setCounter((counter) => counter + 1)
+      setCounter((counter) => counter + 1)
     }
     console.log(counter);
   }
