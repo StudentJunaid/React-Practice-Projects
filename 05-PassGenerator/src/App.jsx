@@ -25,7 +25,7 @@ function App() {
 
   const coptToClipBoard = () =>{
     passRef.current?.select()
-     passRef.current?.setSelectionRange(0,7)
+    //  passRef.current?.setSelectionRange(0,7)
     window.navigator.clipboard.writeText(password)
   }
 
